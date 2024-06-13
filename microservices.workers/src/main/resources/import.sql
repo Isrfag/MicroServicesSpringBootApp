@@ -1,0 +1,13 @@
+INSERT INTO workers (name, last_name, phone, contract, salary, task_id ) VALUES ("Israel","Fernandez", "612090000", "indefinite", 2500,1);
+INSERT INTO workers (name, last_name, phone, contract, salary, task_id ) VALUES ("Juan","Salvador", "622090000", "indefinite", 1900 ,2);
+INSERT INTO workers (name, last_name, phone, contract, salary, task_id ) VALUES ("Guille","Torres", "620191000", "indefinite", 2000,5);
+INSERT INTO workers (name, last_name, phone, contract, salary, task_id ) VALUES ("Omar","Abkhari", "712090305", "six-month", 800,6);
+INSERT INTO workers (name, last_name, phone, contract, salary, task_id ) VALUES ("Irene","Fernandez", "612590005", "per-hour", 672 ,7);
+INSERT INTO workers (name, last_name, phone, contract, salary, task_id ) VALUES ("Irene","Fernandez", "612590005", "per-hour", 672 ,7);
+INSERT INTO workers (name, last_name, phone, contract, salary, task_id ) VALUES ("Cayetano","Garcia", "622291020", "per-hour", 908,3);
+INSERT INTO workers (name, last_name, phone, contract, salary, task_id ) VALUES ("Mercedes","Torices", "712022000", "per-hour", 724,3);
+INSERT INTO workers (name, last_name, phone, contract, salary, task_id ) VALUES ("Antonio","Contreras", "722090000", "per-hour",825 ,3);
+INSERT INTO workers (name, last_name, phone, contract, salary, task_id ) VALUES ("Ana","Moreno", "612090000", "indefinite", 1350 ,3);
+INSERT INTO workers (name, last_name, phone, contract, salary, task_id ) VALUES ("Jaime","Casas", "615292034", "six-month", 800 ,4);
+INSERT INTO workers (name, last_name, phone, contract, salary, task_id ) VALUES ("Aurelio","Sanchez", "644556222", "per-hour", 560 ,8);
+INSERT INTO workers (name, last_name, phone, contract, salary, task_id ) VALUES ("Manuela","Henandez", "612090000", "per-hour", 560 ,8);

@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+      routes:
+        - id: restaurant-workers
+          uri: http://localhost:8090
+          predicates:
+            - Path=/api/workers/**
+        - id: restaurant-tasks
+          uri: http://localhost:9091
+          predicates:
+            - Path=/api/tasks/**
+  application:
+    name: restaurant-gateway
+
+eureka:
+  client:
+    register-with-eureka: false
